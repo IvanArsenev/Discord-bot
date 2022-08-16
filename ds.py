@@ -63,7 +63,7 @@ def rand_str(length): #функция сосдания строки из ран�
 @client.command(aliases = ['help']) #Список команд
 async def hlps(ctx):
     embed = discord.Embed(colour=ctx.author.color,timestamp=ctx.message.created_at)
-    embed.add_field(name='$get_soft',value='ПолуСофть ссылку на Софт', inline=False),
+    embed.add_field(name='$get_soft',value='Получить ссылку на Софт', inline=False),
     embed.add_field(name='$whois (@user)',value='Получение информации о пользователе', inline=False),
     embed.add_field(name='$userlist (ADMINS ONLY)',value='Список пользователей', inline=False),
     embed.add_field(name='$clear №  (ADMINS ONLY)',value='Удаляем № сообщений', inline=False),
