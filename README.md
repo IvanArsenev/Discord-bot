@@ -1,7 +1,7 @@
-# Discord-bot
+# Discord-bot #
 This bot is for software distribution help
 
-#Commands:
+#Commands:#
 
 $get_soft - send soft in message (link)
 
